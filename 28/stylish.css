@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+    font-family: "Roboto";
+}
+
+.global-nav{
+    width: 100%;
+    padding:15px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    background: linear-gradient(90deg, #58c6ff 0%, #076ad9 40%, #ff3bef 80%);
+    color: #ffffff;
+}
+.global-nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+.global-nav a{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-decoration:none;
+    color: #ffffff;
+}
+.global-nav a:hover{
+    background-color:#ffffff;
+    color: #58c6ff;
+    border-radius: 5px;
+}
+
+.profile-div{
+    width: 90%;
+    margin: 70px auto 0;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 30px solid;
+    border-image: url(image/home/frame-inu-asiato.png)100 / 50px / 10px round;
+    text-align: center;
+    color: red;
+}
+.profile-div ul{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.profile-div li{
+    width: 40%;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    border: 1px solid #555555;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color:red;
+}
+.profile-div ul :hover{
+    background-color: #555555;
+}
+.profile-div img{
+    width: 100%;
+}
+
+.global-div{
+    margin: 60px auto 0;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+.item-div{
+    width: 45%;
+    margin: 10px auto 0;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #333333;
+    border: 2px solid #555555;
+    border-radius: 5px;
+    color:#ffffff;
+}
+.item-div img{
+    width: 100%;
+}
+.item-div a{
+    margin: 0 auto 0;
+    text-decoration:none;
+    color: #555555;
+}
+.item{
+    width: 45%;
+    margin: 10px auto 0;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color:green;
+    border: 2px solid white;
+    border-radius: 5px;
+    color:#ffffff;
+}
+.item img{
+    width: 100%;
+}
+.small-img{
+    width: 50%;
+    margin: 0 auto 0;
+    box-sizing: border-box;
+}
+
+#picturediv{
+    background-image: url(image/home/犬たくさん.png);
+    height: 100%; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.fooddiv{
+    background-image: url(image/food/ラーメン.png);
+    background-size:100px;
+    background-repeat: repeat;
+}
+
+.gamediv{
+    background-image: url(image/game/game\ background.png );
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.animediv{
+    background-image: url(image/anime/anime\ background.png);
+    background-size: 100px;
+    background-repeat: repeat;
+}
+.yakushima{
+    background-image: url(image/yakusima/sizenn\ background.jpg);
+    background-size: 100%;
+    background-repeat: repeat;
+}
+.summer-div{
+    background-image: url(image/summer/summer\ background.jpg);
+    background-size: 100%;
+    background-repeat:no-repeat ;
+}
+.anime-iframe{
+    width: 100%;
+    height: 315px;
+}
+.yakushima-iframe{
+    width: 100%;
+    height: 450px;
+}
+.summer-iframe{
+    width: 100%;
+    height: 450px;
+}
