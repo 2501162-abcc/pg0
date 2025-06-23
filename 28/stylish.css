@@ -143,7 +143,19 @@ body{
     background-size: 100%;
     background-repeat:no-repeat ;
 }
-iframe{
+.food-iframe{
+    width: 100%;
+    height: 450px;
+}
+.anime-iframe{
+    width: 100%;
+    height: 315px;
+}
+.yakushima-iframe{
+    width: 100%;
+    height: 450px;
+}
+.summer-iframe{
     width: 100%;
     height: 450px;
 }
