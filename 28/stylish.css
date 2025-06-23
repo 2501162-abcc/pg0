@@ -143,7 +143,10 @@ body{
     background-size: 100%;
     background-repeat:no-repeat ;
 }
-
+.food-iframe{
+    width: 100%;
+    height: 300px;
+}
 .anime-iframe{
     width: 100%;
     height: 315px;
