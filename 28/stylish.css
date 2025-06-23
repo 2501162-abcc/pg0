@@ -143,15 +143,7 @@ body{
     background-size: 100%;
     background-repeat:no-repeat ;
 }
-.anime-iframe{
-    width: 100%;
-    height: 315px;
-}
-.yakushima-iframe{
-    width: 100%;
-    height: 450px;
-}
-.summer-iframe{
+iframe{
     width: 100%;
     height: 450px;
 }
