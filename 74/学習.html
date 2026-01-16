@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>学習情報管理システム</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- レトロなフォントの追加 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap"
+      rel="stylesheet"
+    />
+    <script src="js/script.js" type="text/javascript" charset="UTF-8"></script>
+    <!--javascriptの読み込み-->
+  </head>
+  <body>
+    <div class="tech-machine">
+      <div class="header">
+        <h1>学習記録</h1>
+      </div>
+      <div class="body">
+        <div class="content">
+          <!-- 学習情報入力セクション -->
+          <div class="subject-info">
+            <h2>学習項目</h2>
+            <form>
+              <label for="subject">科目</label>
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="科目情報"
+              /><br /><br />
+
+              <label for="subject-day">学習日:</label>
+              <input
+                type="date"
+                id="subject-day"
+                name="day"
+              /><br /><br />
+
+              <label for="subject-time">時間</label>
+              <input
+                type="email"
+                id="subject-time"
+                name="time"
+                placeholder="〇時間"
+              /><br /><br />
+
+              <!-- ボタンを横並びに配置 -->
+              <div class="button-group">
+                <!--★ クリックしたら情報を保存する関数を呼び出す -->
+                <button type="keepButton">内容を保存する</button>
+                <!--★ クリックしたら情報を削除する関数を呼び出す -->
+                <button type="deleteButton">すべて消去する</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      //★ ローカルストレージに保存された情報を読み込む関数を呼び出す
+      loadDate();
+    </script>
+    <small>2501162 西島陽心</small>
+  </body>
+</html>

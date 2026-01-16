@@ -1,0 +1,388 @@
+/* 学習情報風のデザインを適用 */
+
+/*body {
+    background-color: #f5f5f5;
+    font-family: "DotGothic16", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.tech-machine {
+    background-color: #ffffff;
+    border: 5px solid #3b4cca; 
+    border-radius: 20px;
+    width: 500px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative; 
+}
+
+.header {
+    background-color: #3b4cca; 
+    color: #ffffff;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.body {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+
+.subject-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.subject-info h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+.subject-info form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.subject-info label {
+    font-size: 16px;
+    color: #333333;
+}
+
+.subject-info input[type="text"],
+.subject-info input[type="date"],
+.subject-info input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #3b4cca;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: "DotGothic16", sans-serif;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px;
+}
+
+.button-group button {
+    flex: 1;
+    padding: 10px;
+    background-color: #3b4cca; 
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: "DotGothic16", sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-group button:hover {
+    background-color: #2d3994;
+}
+
+
+.subject-image {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+
+@media (max-width: 600px) {
+    .tech-machine {
+        width: 90%;
+    }
+
+    .header h1 {
+        font-size: 20px;
+    }
+
+    .subject-info h2 {
+        font-size: 18px;
+    }
+
+    .subject-info label {
+        font-size: 14px;
+    }
+
+    .subject-info input[type="text"],
+    .subject-info input[type="date"],
+    .subject-info input[type="email"] {
+        font-size: 14px;
+    }
+
+    .button-group button {
+        font-size: 14px;
+    }
+
+    .subject-image {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media (max-width: 400px) {
+    .tech-machine {
+        width: 95%;
+    }
+
+    .header h1 {
+        font-size: 18px;
+    }
+
+    .subject-info h2 {
+        font-size: 16px;
+    }
+
+    .subject-info label {
+        font-size: 12px;
+    }
+
+    .subject-info input[type="text"],
+    .subject-info input[type="date"],
+    .subject-info input[type="email"] {
+        font-size: 12px;
+    }
+
+    .button-group button {
+        font-size: 12px;
+    }
+
+    .subject-image {
+        width: 100px;
+        height: 100px;
+    }
+}*/
+
+body {
+     background-color: #fffb00; /* ネオンイエロー */
+    font-family: "DotGothic16", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.tech-machine {
+    background-color: #ffffff;
+    border: 5px solid #ff00c8; /* ネオンピンク */
+    border-radius: 20px;
+    width: 500px;
+    box-shadow: 0 0 25px rgba(255, 0, 200, 0.6);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.header {
+    background-color: #00e5ff; /* サイバー水色 */
+    color: #000000;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.body {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+/* 学習情報入力セクション */
+.subject-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.subject-info h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #ff0077; /* ビビッドピンク */
+}
+
+.subject-info form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.subject-info label {
+    font-size: 16px;
+    color: #000000;
+}
+
+.subject-info input[type="text"],
+.subject-info input[type="date"],
+.subject-info input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #00ff85; /* ネオングリーン */
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: "DotGothic16", sans-serif;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background-color: #eafff5;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px;
+}
+
+.button-group button {
+    flex: 1;
+    padding: 10px;
+    background-color: #ff00c8; /* ネオンピンク */
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: "DotGothic16", sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-group button:hover {
+    background-color: #c800ff; /* 紫寄りのネオン */
+}
+
+.subject-image {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin-top: 20px;
+    border-radius: 50%;
+    border: 3px solid #00e5ff;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .tech-machine {
+        width: 90%;
+    }
+
+    .header h1 {
+        font-size: 20px;
+    }
+
+    .subject-info h2 {
+        font-size: 18px;
+    }
+
+    .subject-info label {
+        font-size: 14px;
+    }
+
+    .subject-info input[type="text"],
+    .subject-info input[type="date"],
+    .subject-info input[type="email"] {
+        font-size: 14px;
+    }
+
+    .button-group button {
+        font-size: 14px;
+    }
+
+    .subject-image {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media (max-width: 400px) {
+    .tech-machine {
+        width: 95%;
+    }
+
+    .header h1 {
+        font-size: 18px;
+    }
+
+    .subject-info h2 {
+        font-size: 16px;
+    }
+
+    .subject-info label {
+        font-size: 12px;
+    }
+
+    .subject-info input[type="text"],
+    .subject-info input[type="date"],
+    .subject-info input[type="email"] {
+        font-size: 12px;
+    }
+
+    .button-group button {
+        font-size: 12px;
+    }
+
+    .subject-image {
+        width: 100px;
+        height: 100px;
+    }
+}
